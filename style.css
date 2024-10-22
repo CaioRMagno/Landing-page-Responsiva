@@ -196,6 +196,26 @@ footer {
     .first-section {
         flex-direction: column;
     }
+    .trail {
+        flex-direction: column; /* Em telas menores, os itens ficam empilhados */
+        gap: 1rem; /* Menor espaço entre os elementos */
+        padding: 1rem;
+    }
+
+    .trail-img {
+        width: 100%; /* A imagem se ajusta ao tamanho do contêiner */
+        max-width: 100%; /* Garante que a imagem não ultrapasse o tamanho da tela */
+        height: auto; /* Mantém a proporção correta */
+    }
+
+    .trail-gallery {
+        flex-direction: column; /* Empilha os itens da galeria em uma coluna */
+        gap: 1rem; /* Reduz o espaço entre os itens em telas menores */
+    }
+
+    .trail-info {
+        text-align: center; /* Centraliza o texto em dispositivos móveis */
+    }
 }
 .trail{
     align-items: center;
